@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.futurebank.accountService.config.AppConfig",
+      "sourceType": "com.futurebank.accountService.config.AppConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.jwt-expiration-ms",
+      "type": "java.lang.Long",
+      "description": "Expiration time for JWT tokens in milliseconds.",
+      "sourceType": "com.futurebank.accountService.config.AppConfig"
+    },
+    {
+      "name": "app.jwt-secret",
+      "type": "java.lang.String",
+      "description": "JWT Secret key for signing and verifying the JWT token.",
+      "sourceType": "com.futurebank.accountService.config.AppConfig"
+    }
+  ],
+  "hints": []
+}

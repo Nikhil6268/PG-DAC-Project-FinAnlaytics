@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.futurebank.authservice.config.AppConfig",
+      "sourceType": "com.futurebank.authservice.config.AppConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.jwt-expiration-ms",
+      "type": "java.lang.Long",
+      "sourceType": "com.futurebank.authservice.config.AppConfig"
+    },
+    {
+      "name": "app.jwt-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.futurebank.authservice.config.AppConfig"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,103 @@
+/* General body styling for a consistent background */
+body {
+  background-color: #f4f7fa;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Styling for the login container to add more spacing */
+.login-container {
+  padding: 2rem;
+}
+
+/* Card enhancements for a better visual appeal */
+.card {
+  border-radius: 15px; /* Rounded corners for the card */
+  border: none; /* Remove the default border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Card title styling for a distinct look */
+.card-title {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Button enhancements for a more attractive call-to-action */
+.btn-primary {
+  background-color: #0056b3; /* Future Bank primary color */
+  border: none; /* Remove the default border */
+  font-weight: 500;
+  padding: 0.75rem 1.5rem; /* Padding for better button size */
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer; /* Show pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.btn-primary:hover {
+  background-color: #003d82; /* Darker shade on hover */
+}
+
+/* Link and button styling in the form footer */
+.form-footer .btn-link,
+.form-footer a {
+  font-size: 0.9rem;
+  color: #0056b3; /* Match the primary color for consistency */
+  text-decoration: none;
+}
+
+.form-footer .btn-link:hover,
+.form-footer a:hover {
+  color: #003d82; /* Darker shade on hover */
+}
+
+/* Enhancements for the security tips section */
+.security-tips {
+  background-color: #fff; /* White background for contrast */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent shadow with the card */
+  font-size: 0.9rem; /* Slightly smaller font for this section */
+  color: #666; /* Slightly dimmed text for better readability */
+  padding: 20px; /* Adequate padding for spacing */
+  margin-top: 20px; /* Space it out from the login form */
+}
+
+.security-tips h3 {
+  margin-bottom: 10px; /* Space between the title and the list */
+  color: #333; /* Darker color for emphasis */
+}
+
+.security-tips ul {
+  padding-left: 20px; /* Indent for the list */
+}
+
+.security-tips li {
+  margin-bottom: 5px; /* Space out the list items */
+}
+
+/* Your requested enhancement for "Welcome to Future Bank" */
+.welcome-message {
+  font-family: "Arial", sans-serif;
+  color: #ffffff; /* Text color */
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px #003d82; /* 3D effect with blue shadow */
+  background-color: #0056b3; /* Solid blue background */
+  padding: 10px;
+  border-radius: 10px;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 1rem;
+  }
+}
+
+/* Media query for screen width 992px and above */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 100.333%;
+  }
+}
